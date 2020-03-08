@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Chess Clone</title>
+    <meta name="viewport" content="width=device-width, scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+          rel="stylesheet">
+    <link href="stylesheets/index.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="chess-board"></div>
+
+    <script src="scripts/chess.js"></script>
+    <script>
+      const boardElement = document.getElementById('chess-board');
+
+      boardElement.innerHTML = boardHtml(board);
+    </script>
+  </body>
+</html>
